@@ -60,23 +60,31 @@ footer {
 
 @media (min-width: 768px) {
   header {
-    background-color: Azure;
+    background-color: red;
+  }
+
+  .col-3 {
+    width: 50%;
   }
 
   #column-1 {
     background-color: Aquamarine;
+
   }
 
   #column-2 {
     background-color: AliceBlue;
+
   }
 
   #column-3 {
     background-color: DeepPink;
+    width: 100%;
+
   }
 
   footer {
-    background-color: ;
+    background-color: #2e692f;
   }
 
 }
@@ -90,14 +98,21 @@ footer {
 
   #column-1 {
     background-color: DarkSlateGrey;
+
   }
 
   #column-2 {
     background-color: LawnGreen;
+
   }
 
   #column-3 {
     background-color: LightCoral;
+    width: 33.3%;
+  }
+
+  .col-3 {
+    width: 33.3%
   }
 
   footer {
